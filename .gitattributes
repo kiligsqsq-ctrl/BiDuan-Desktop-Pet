@@ -1,0 +1,11 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.gif binary
+*.png binary
+*.ico binary
+assets/animations/*.gif filter=lfs diff=lfs merge=lfs -text
+assets/animations/**/*.gif filter=lfs diff=lfs merge=lfs -text

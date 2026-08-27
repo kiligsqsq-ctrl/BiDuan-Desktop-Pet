@@ -1,0 +1,15 @@
+.venv/
+.tools/
+artifacts/
+.install-test/
+.ui-test-*/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+release/
+*.spec
+*.log
+source_plan.pdf
+assets/pets/
